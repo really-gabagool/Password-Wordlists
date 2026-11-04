@@ -1,0 +1,15 @@
+# Wordlists
+
+A collection of wordlists for authorized security testing. I have been building these wordlists for my own testing and hope they may be able to help others. 
+
+## bot_passwords.txt
+Collected from US based Cowrie honeypot and EU based T-Pot honeypot sensors. Deduplicated. 
+
+## ilovesports.txt
+Common sports teams, players, cities and more. 
+
+## phassphrases_1.txt
+A collection of music lyrics, movie quotes, pop culture, etc
+
+## top3kenglishwords.txt
+Statistically the top 3,000 US English words
