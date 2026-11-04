@@ -15,4 +15,5 @@ A collection of wordlists for authorized security testing. I have been building 
 > Statistically the top 3,000 US English words
 
 These wordlists can be used with Hashcat, John The Ripper, Hydra, etc
+
 Especially useful when used with rules in Hashcat!
