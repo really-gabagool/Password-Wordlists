@@ -8,7 +8,7 @@ A collection of password wordlists for authorized security testing. I have been 
 ### ilovesports.txt
 > Common sports teams, players, cities and more. 
 
-### phassphrases_1.txt
+### passphrases_1.txt
 > A collection of music lyrics, movie quotes, pop culture, etc
 
 ### top3kenglishwords.txt
