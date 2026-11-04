@@ -1,6 +1,6 @@
-# Wordlists
+# Password Wordlists
 
-A collection of wordlists for authorized security testing. I have been building these wordlists for my own testing and hope they may be able to help others. These wordlists can be used with Hashcat, John The Ripper, Hydra, etc. Especially useful when used with rules in Hashcat!
+A collection of password wordlists for authorized security testing. I have been building these wordlists for my own testing and hope they may be able to help others. These wordlists can be used with Hashcat, John The Ripper, Hydra, etc. Especially useful when used with rules in Hashcat!
 
 ### bot_passwords.txt
 > Collected from US based Cowrie honeypot and EU based T-Pot honeypot sensors. Deduplicated. 
