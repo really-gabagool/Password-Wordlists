@@ -8,13 +8,13 @@ Use them directly as dictionaries or as starting points for rule-based candidate
 
 ## Wordlists
 
-| File | Contents | Nonempty entries | Unique entries |
-| --- | --- | ---: | ---: |
-| [bot_passwords.txt](bot_passwords.txt) | Passwords collected from my US-based Cowrie and EU-based T-Pot honeypot sensors. | 3,411 | 3,411 |
+| File | Contents | Entries |
+| --- | --- | ---: |
+| [bot_passwords.txt](bot_passwords.txt) | Passwords collected from my honeypots. | 35,585 |
 | [ilovesports.txt](ilovesports.txt) | Sports teams, players, cities, abbreviations, and related terms. | 651 | 631 |
-| [ny_targeted.txt](ny_targeted.txt) | New York geographic names, including counties, towns, lakes, and rivers. | 1,107 | 1,066 |
-| [passphrases_1.txt](passphrases_1.txt) | Music references, movie quotes, popular culture, and everyday expressions. | 625 | 607 |
-| [top3kenglishwords.txt](top3kenglishwords.txt) | A general English vocabulary list containing approximately 3,000 words. | 2,999 | 2,999 |
+| [ny_targeted.txt](ny_targeted.txt) | New York geographic names, including counties, towns, lakes, and rivers. | 1,107 | 
+| [passphrases_1.txt](passphrases_1.txt) | Music references, movie quotes, popular culture, and everyday expressions. | 625 |
+| [top3kenglishwords.txt](top3kenglishwords.txt) | A general English vocabulary list containing approximately 3,000 words. | 2,999 | 
 
 
 ## About the honeypot data
