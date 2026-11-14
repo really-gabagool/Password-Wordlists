@@ -1,8 +1,8 @@
 # Password Wordlists
 
-A collection of honeypot-observed passwords and themed wordlists for authorized password auditing, security research, and CTFs.
+A collection of themed wordlists for authorized password auditing, security research, and CTFs.
 
-I build these lists for my own testing and share them here for others to use. The collection combines passwords attempted against my internet-facing honeypots with candidate words and phrases based on sports, New York geography, English vocabulary, and popular culture.
+I build these lists for my own testing and share them here for others to use. The collection combines candidate words and phrases based on sports, New York geography, English vocabulary, and popular culture.
 
 Use them directly as dictionaries or as starting points for rule-based candidate generation with tools such as Hashcat and John the Ripper.
 
@@ -10,20 +10,13 @@ Use them directly as dictionaries or as starting points for rule-based candidate
 
 | File | Contents | Entries | Last Update |
 | --- | --- | ---: | --- |
-| [bot_passwords.txt](bot_passwords.txt) | Passwords collected from my honeypots. | 35,585 | 11/11/26 |
 | [ilovesports.txt](ilovesports.txt) | Sports teams, players, cities, abbreviations, and related terms. | 651 |  |
 | [ny_targeted.txt](ny_targeted.txt) | New York geographic names, including counties, towns, lakes, and rivers. | 1,107 |  | 
-| [passphrases_1.txt](passphrases_1.txt) | Music references, movie quotes, popular culture, and everyday expressions. | 625 |  |
+| [passphrases.txt](passphrases.txt) | Music references, movie quotes, popular culture, and everyday expressions. | 39,613 |  |
 | [top3kenglishwords.txt](top3kenglishwords.txt) | A general English vocabulary list containing approximately 3,000 words. | 2,999 |  | 
 
 
 ## About the honeypot data
-
-`bot_passwords.txt` contains deduplicated password strings submitted during authentication attempts against my honeypots. It offers a view of the credentials being tried against those sensors.
-
-An observed attempt does not establish that a password belongs to a real user, successfully authenticated to a real system, or is common across the internet. The filename does not mean every attempt has been independently attributed to a bot. Deduplication removes attempt frequency, so this file is not a popularity ranking.
-
-The other files are themed candidate lists. They should not be treated as honeypot observations or verified leaked credentials. No cracking success rate is claimed for this collection.
 
 ## Getting started
 
@@ -39,7 +32,7 @@ Each text file contains one candidate per line. Capitalization, spaces, punctuat
 Run a dictionary attack against hashes you are authorized to audit:
 
 ```bash
-hashcat -m <hash_mode> -a 0 hashes.txt bot_passwords.txt
+hashcat -m <hash_mode> -a 0 hashes.txt passphrases.txt
 ```
 
 Apply a rule file to a themed list:
@@ -53,7 +46,7 @@ Replace `<hash_mode>` with the correct mode for your hash format. Rules can expa
 ### John the Ripper
 
 ```bash
-john --wordlist=bot_passwords.txt hashes.txt
+john --wordlist=passphrases.txt hashes.txt
 ```
 
 With wordlist rules:
