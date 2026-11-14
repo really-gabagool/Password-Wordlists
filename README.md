@@ -10,7 +10,7 @@ Use them directly as dictionaries or as starting points for rule-based candidate
 
 | File | Contents | Entries | Last Update |
 | --- | --- | ---: | --- |
-| [ilovesports.txt](ilovesports.txt) | Sports teams, players, cities, abbreviations, and related terms. | 651 |  |
+| [ilovesports.txt](ilovesports.txt) | Sports teams, players, cities, abbreviations, and related terms. | 15,975 |  |
 | [ny_targeted.txt](ny_targeted.txt) | New York geographic names, including counties, towns, lakes, and rivers. | 1,107 |  | 
 | [passphrases.txt](passphrases.txt) | Music references, movie quotes, popular culture, and everyday expressions. | 39,613 |  |
 | [top3kenglishwords.txt](top3kenglishwords.txt) | A general English vocabulary list containing approximately 3,000 words. | 2,999 |  | 
